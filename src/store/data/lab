@@ -1,0 +1,55 @@
+import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
+
+export const SampleProfile = [
+   {
+    id: "1",
+    header:"Socials",
+    types: {
+        facebok: {
+            name:"Facebook",
+            url:"https://facebook.com/justice.pago",
+            icon:FaFacebook,
+        },
+
+        twitter: {
+            name:"Twitter",
+            url:"https://twitter.com/justicepago",
+            icon:FaTwitter,
+        },
+        linkedin: {
+            name:"Linkedin",
+            url:"https://linkedin.com/in/bariborpaago",
+            icon:FaLinkedin,
+        },
+    }
+   },
+
+   {
+    id: "2",
+    header:"Articles",
+    types: {
+        linkedin: {
+            name:"",
+            url:"https://www.linkedin.com/posts/bariborpaago_work-opportunity-career-activity-7015341811854413824-FAkX?utm_source=share&utm_medium=member_desktop",
+            icon:FaFacebook,
+        },
+
+        twitter: {
+            name:"Twitter",
+            url:"https://twitter.com/justicepago",
+            icon:FaTwitter,
+        },
+        linkedin: {
+            name:"Linkedin",
+            url:"https://linkedin.com/in/bariborpaago",
+            icon:FaLinkedin,
+        },
+    }
+   },
+    
+    
+    
+
+];
+
+export default SampleProfile;

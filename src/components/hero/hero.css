@@ -1,0 +1,9 @@
+.hero-text {
+    width: 80% !important;
+}
+
+@media screen and (max-width: 767px) {
+    .hero-text {
+        width: 100% !important;
+    }
+}
